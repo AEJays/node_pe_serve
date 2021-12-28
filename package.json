@@ -10,7 +10,7 @@
     "start": "node serve.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "aedge",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
