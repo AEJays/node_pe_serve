@@ -11,13 +11,13 @@ app.html和phone.png会自动生成
 #### 使用方法：
 ##### 安装
 ```bash
-npm i
+npm i -g
 ```
 ##### 运行
 将dist放入主目录 执行
 
 ```bash
-npm start
+peServe (/dist文件夹所在目录，不带默认为当前文件夹下的dist文件夹)
 ```
 
 #### 配置端口方法：
