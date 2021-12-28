@@ -14,6 +14,8 @@ app.html和phone.png会自动生成
 npm i
 ```
 ##### 运行
+将dist放入主目录 执行
+
 ```bash
 npm start
 ```
