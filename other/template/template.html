@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电脑端展示</title>
+</head>
+<body>
+    <div id="phone">
+        <div class="phone">
+            <iframe src="/index.html"></iframe>
+        </div>
+    </div>
+</body>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+*::-webkit-scrollbar{
+    width: 1px;
+}
+#phone{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left,#72E1F8,#8788FE);
+}
+.phone{
+    width: 350px;
+    height: 579px;
+    z-index: 2;
+    background: url(/phone.png) 100% 100%;
+    padding: 58px 16px 89px;
+
+}
+.phone>iframe{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+</style>
+</html>

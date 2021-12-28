@@ -1,0 +1,16 @@
+{
+  "name": "node-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "os": "^0.1.2"
+  }
+}
