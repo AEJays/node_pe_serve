@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "serve.js",
+  "bin": {
+    "peServe":"serve.js"
+  },
   "scripts": {
     "start": "node serve.js"
   },
