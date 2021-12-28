@@ -17,8 +17,12 @@ npm i -g
 将dist放入主目录 执行
 
 ```bash
-peServe (/dist文件夹所在目录，不带默认为当前文件夹下的dist文件夹)
+peServe [dist的上层目录]
 ```
+
+例子
+
+peServe . 会将该目录下的dist文件夹作为服务器的根文件夹
 
 #### 配置端口方法：
 
